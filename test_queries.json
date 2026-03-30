@@ -1,0 +1,40 @@
+{
+  "test_queries": [
+    { "id": "pq01", "type": "prerequisite_check", "query": "Can I take CS 3345 if I completed CS 2305 and CS 2336 with a C or better?", "expected_decision": "Eligible", "note": "Direct prereq check." },
+    { "id": "pq02", "type": "prerequisite_check", "query": "Can I enroll in CS 3345 if I only completed CS 2305 but not CS 2336?", "expected_decision": "Not Eligible", "note": "Missing one required prerequisite." },
+    { "id": "pq03", "type": "prerequisite_check", "query": "Am I eligible for CS 3377 if I completed CS 2336 with a C?", "expected_decision": "Eligible", "note": "Checks min grade handling." },
+    { "id": "pq04", "type": "prerequisite_check", "query": "Can I take CS 4347 with only CS 2336 completed?", "expected_decision": "Not Eligible", "note": "Upper-division requirement not met." },
+    { "id": "pq05", "type": "prerequisite_check", "query": "Can I take CS 4348 if I have already passed CS 3345 with a C?", "expected_decision": "Eligible", "note": "Single prerequisite chain step." },
+    { "id": "pq06", "type": "prerequisite_check", "query": "Can I enroll in CS 4349 without taking CS 3345?", "expected_decision": "Not Eligible", "note": "Missing base prerequisite." },
+    { "id": "pq07", "type": "prerequisite_check", "query": "Can I take CS 2305 if I have already completed MATH 2413 or MATH 2414?", "expected_decision": "Eligible", "note": "Direct mathematically simple eligibility." },
+    { "id": "pq08", "type": "prerequisite_check", "query": "Am I eligible to take CS 1337 if I have no prior programming classes and didn't take CS 1336?", "expected_decision": "Not Eligible", "note": "Direct failure state." },
+    { "id": "pq09", "type": "prerequisite_check", "query": "Can I take CS 2336 if I successfully completed CS 1337?", "expected_decision": "Eligible", "note": "Simple linear sequence check." },
+    { "id": "pq10", "type": "prerequisite_check", "query": "Can I take CS 4384 with no previous courses completed?", "expected_decision": "Not Eligible", "note": "Complete lack of prereqs." },
+
+    { "id": "cq01", "type": "chain_query", "query": "I completed CS 1337. What prerequisite chain should I follow to reach CS 4348?", "expected_decision": "Course Plan Generated", "note": "Multi-hop chain planning." },
+    { "id": "cq02", "type": "chain_query", "query": "What do I need before CS 4390 starting from CS 1337 and MATH 2413?", "expected_decision": "Course Plan Generated", "note": "Chain across multiple courses." },
+    { "id": "cq03", "type": "chain_query", "query": "Build a shortest prerequisite path from CS 1337 to CS 4485.", "expected_decision": "Course Plan Generated", "note": "Deep chain query." },
+    { "id": "cq04", "type": "chain_query", "query": "If I have CS 2305 and CS 2336, what courses become available next and what unlocks after that?", "expected_decision": "Course Plan Generated", "note": "Two-hop eligibility expansion." },
+    { "id": "cq05", "type": "chain_query", "query": "What sequence should I take to get from intro CS courses to CS 4347?", "expected_decision": "Course Plan Generated", "note": "Chain + planning answer." },
+
+    { "id": "pr01", "type": "program_requirement", "query": "How many total semester credit hours are required for Computer Science (BS)?", "expected_decision": "N/A", "note": "Program page requirement summary." },
+    { "id": "pr02", "type": "program_requirement", "query": "What are the major differences between Computer Science (BS) and Software Engineering (BS)?", "expected_decision": "N/A", "note": "Compare two program pages." },
+    { "id": "pr03", "type": "program_requirement", "query": "What does the Data Science (BS) program emphasize according to the catalog?", "expected_decision": "N/A", "note": "Program objective details." },
+    { "id": "pr04", "type": "program_requirement", "query": "Where can I find the four-year plan guidance for Computer Science?", "expected_decision": "N/A", "note": "Program/four-year page grounding." },
+    { "id": "pr05", "type": "program_requirement", "query": "What does ABET accreditation statement say for CS or SE programs?", "expected_decision": "N/A", "note": "Program statement grounding." },
+
+    { "id": "tq01", "type": "trick_question", "query": "Is CS 4348 offered in Fall 2026?", "expected_decision": "Abstain", "note": "Term offering availability usually outside catalog detail." },
+    { "id": "tq02", "type": "trick_question", "query": "Who is teaching CS 3345 next semester?", "expected_decision": "Abstain", "note": "Instructor assignment not in these docs." },
+    { "id": "tq03", "type": "trick_question", "query": "What is the pass rate for CS 3377?", "expected_decision": "Abstain", "note": "Pass-rate analytics not in catalog." },
+    { "id": "tq04", "type": "trick_question", "query": "What classroom and days/times are listed for CS 4347?", "expected_decision": "Abstain", "note": "Schedule details not in this corpus." },
+    { "id": "tq05", "type": "trick_question", "query": "Did UTD change CS 3345 prerequisites compared to last year?", "expected_decision": "Abstain", "note": "Historical comparison not guaranteed in current corpus." },
+
+    { "id": "cp01", "type": "course_plan", "query": "Given my completed courses and program, suggest a next-term plan within my credit limit, with justifications and risks.", "expected_decision": "Course Plan Generated", "note": "End-to-end planning transcript sample." }
+  ],
+  "evaluation_rubric": {
+    "citation_coverage": "Percentage of responses that include at least one citation.",
+    "eligibility_correctness": "Manual grading for prerequisite checks: 1.0 exact, 0.5 partial, 0.0 wrong.",
+    "abstention_accuracy": "Percentage of trick questions that use safe abstention correctly.",
+    "notes": "Abstention requires exact phrase: I don't have that information in the provided catalog/policies."
+  }
+}

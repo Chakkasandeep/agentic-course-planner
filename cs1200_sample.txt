@@ -1,0 +1,5 @@
+<body>
+ <form action="http://192.168.2.253:8090/httpclient.html" id="portal_url" method="POST">
+  <input name="request_url" type="hidden" value=""/>
+ </form>
+</body>

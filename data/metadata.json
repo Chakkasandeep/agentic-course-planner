@@ -1,0 +1,368 @@
+{
+  "date_scraped": "2026-03-29",
+  "total_documents": 59,
+  "unique_source_urls": 59,
+  "total_word_count": 30161,
+  "category_breakdown": {
+    "course_page": 38,
+    "program_requirement": 6,
+    "policy": 15
+  },
+  "avg_words_per_doc": 511.2,
+  "sources": [
+    {
+      "doc_id": "course_page:courses_cs1200",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs1200",
+      "words": 142,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs1334",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs1334",
+      "words": 111,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs1335",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs1335",
+      "words": 102,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs1436",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs1436",
+      "words": 106,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs1337",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs1337",
+      "words": 100,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs2305",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs2305",
+      "words": 64,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs2336",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs2336",
+      "words": 99,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs2337",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs2337",
+      "words": 82,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs2340",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs2340",
+      "words": 136,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs2v95",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs2v95",
+      "words": 52,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs3305",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs3305",
+      "words": 96,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs3341",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs3341",
+      "words": 152,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs3345",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs3345",
+      "words": 105,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs3354",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs3354",
+      "words": 93,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs3162",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs3162",
+      "words": 89,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs3377",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs3377",
+      "words": 114,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4141",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4141",
+      "words": 67,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4301",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4301",
+      "words": 62,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4337",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4337",
+      "words": 127,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4341",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4341",
+      "words": 94,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4347",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4347",
+      "words": 67,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4348",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4348",
+      "words": 89,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4349",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4349",
+      "words": 72,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4352",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4352",
+      "words": 53,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4375",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4375",
+      "words": 91,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4384",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4384",
+      "words": 61,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4390",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4390",
+      "words": 78,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4485",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4485",
+      "words": 175,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_cs4v96",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/cs4v96",
+      "words": 89,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_math2413",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/math2413",
+      "words": 155,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_math2414",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/math2414",
+      "words": 168,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_math2415",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/math2415",
+      "words": 154,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_math2418",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/math2418",
+      "words": 137,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_math3310",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/math3310",
+      "words": 50,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_math3379",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/math3379",
+      "words": 45,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_phys2325",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/phys2325",
+      "words": 93,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_phys2326",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/phys2326",
+      "words": 94,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "course_page:courses_ecs2390",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/ecs2390",
+      "words": 81,
+      "category": "course_page"
+    },
+    {
+      "doc_id": "program_requirement:ecs_computer_science",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/ecs/computer-science",
+      "words": 827,
+      "category": "program_requirement"
+    },
+    {
+      "doc_id": "program_requirement:ecs_software_engineering",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/ecs/software-engineering",
+      "words": 803,
+      "category": "program_requirement"
+    },
+    {
+      "doc_id": "program_requirement:ecs_data_science",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/ecs/data-science",
+      "words": 142,
+      "category": "program_requirement"
+    },
+    {
+      "doc_id": "program_requirement:programs_ecs",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/ecs",
+      "words": 913,
+      "category": "program_requirement"
+    },
+    {
+      "doc_id": "program_requirement:computer_science_four_year",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/ecs/computer-science/four-year",
+      "words": 578,
+      "category": "program_requirement"
+    },
+    {
+      "doc_id": "program_requirement:software_engineering_four_year",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/ecs/software-engineering/four-year",
+      "words": 575,
+      "category": "program_requirement"
+    },
+    {
+      "doc_id": "policy:policies_course_policies",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/policies/course-policies",
+      "words": 2395,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:policies_academic",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/policies/academic",
+      "words": 3425,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:policies_disciplinary_actions",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/policies/disciplinary-actions",
+      "words": 1572,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:policies_degree_plans",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/policies/degree-plans",
+      "words": 960,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:policies_registration",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/policies/registration",
+      "words": 2182,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:policies_graduation",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/policies/graduation",
+      "words": 1636,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:graduate_courses_fasttrack",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/policies/graduate-courses/fasttrack",
+      "words": 862,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:curriculum_core_curriculum",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/curriculum/core-curriculum",
+      "words": 2413,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:curriculum_other_degree_requirements",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/curriculum/other-degree-requirements",
+      "words": 506,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:programs_aht",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/aht",
+      "words": 706,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:aht_animation_and_games",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/aht/animation-and-games",
+      "words": 819,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:aht_history",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/aht/history",
+      "words": 1519,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:aht_latin_american_studies",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/aht/latin-american-studies",
+      "words": 1311,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:aht_literature",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/aht/literature",
+      "words": 1383,
+      "category": "policy"
+    },
+    {
+      "doc_id": "policy:aht_literature_creative_writing",
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/aht/literature-creative-writing",
+      "words": 889,
+      "category": "policy"
+    }
+  ]
+}
