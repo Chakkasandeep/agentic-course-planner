@@ -8,6 +8,8 @@
 
 ## 🌟 About This Project
 
+**📄 [Project Write-Up (PDF)](https://drive.google.com/file/d/16ibhOsRpt_haQTvkaoAZ7vJ6L57v0hOX/view?usp=sharing)**
+
 This project is a sophisticated, production-ready implementation of an **Agentic Retrieval-Augmented Generation (RAG)** system. Built for the UT Dallas 2025 course catalog ecosystem, the assistant functions as a fully autonomous academic advisor that grounds 100% of its reasoning in official, scraped catalog facts. 
 
 Instead of acting as a simple Q&A bot, it utilizes a conversational **Intake Memory Loop** to interactively question the user, collect their academic constraints, and then mathematically compute an eligible path forward, citing exactly which catalog rule allowed each decision.
